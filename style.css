@@ -1,0 +1,231 @@
+```css
+/* General page styling */
+
+body {
+    margin: 0;
+    padding: 30px;
+
+    background-color: #f4f7fb;
+    color: #222;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main heading */
+
+header {
+    background-color: white;
+
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 {
+    color: #1f3c88;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #666;
+}
+
+
+/* Sections */
+
+.add-expense-section,
+.expenses-section,
+.help-section,
+.multimedia-section {
+    background-color: white;
+
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+}
+
+
+/* Section headings */
+
+h2 {
+    color: #1f3c88;
+}
+
+
+/* Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+/* Form groups */
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+/* Labels */
+
+label {
+    font-weight: bold;
+}
+
+
+/* Inputs and select */
+
+input,
+select {
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+
+/* Focus selector */
+
+input:focus,
+select:focus {
+    border-color: #1f3c88;
+    outline: 2px solid #dce5ff;
+}
+
+
+/* Negation selector */
+
+input:not([type="submit"]) {
+    background-color: #fafafa;
+}
+
+
+/* Button */
+
+button {
+    width: fit-content;
+
+    padding: 12px 20px;
+
+    background-color: #2e7d32;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* Button hover */
+
+button:hover {
+    background-color: #256b29;
+}
+
+
+/* Expense table */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+
+/* Table headers */
+
+th {
+    padding: 12px;
+
+    background-color: #1f3c88;
+    color: white;
+
+    border: 1px solid #162d68;
+
+    text-align: left;
+}
+
+
+/* Descendant selector */
+
+.expenses-section td {
+    padding: 12px;
+
+    border: 1px solid #ddd;
+}
+
+
+/* Alternating rows */
+
+tr:nth-child(even) {
+    background-color: #f2f5fa;
+}
+
+
+/* Table hover */
+
+tbody tr:hover {
+    background-color: #e1ebff;
+
+    cursor: pointer;
+}
+
+
+/* Details */
+
+details {
+    padding: 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Multimedia */
+
+iframe {
+    max-width: 100%;
+
+    border-radius: 8px;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+```
